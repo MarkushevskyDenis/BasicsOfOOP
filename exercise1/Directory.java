@@ -6,6 +6,10 @@ public class Directory {
 
     private String path;
 
+    public Directory(){
+
+    }
+
     public Directory(String path) {
         this.path = path;
     }

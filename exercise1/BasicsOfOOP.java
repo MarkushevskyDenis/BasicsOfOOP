@@ -8,7 +8,7 @@ package by.jonline.grow.basicsofoop.exercise1;
 public class BasicsOfOOP {
     public static void main(String[] args) {
         Directory directory = new Directory("F:\\jOnline\\");
-        TextFile textFile = TextFile.create("HelloWord",directory);
+        TextFile textFile = new TextFile("HelloWord", directory);
 
         textFile.add("Тестовый текст. Тестовый текст1.");
         textFile.setTitle("Test");

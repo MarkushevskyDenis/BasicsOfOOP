@@ -14,7 +14,7 @@ public class BasicsOfOOP {
         Calendar.Date[] dates = logic.generateDays(true,6);
         Calendar calendar = new Calendar();
         calendar.setDates(dates);
-        view.Out(calendar);
+        view.out(calendar);
 
     }
 }

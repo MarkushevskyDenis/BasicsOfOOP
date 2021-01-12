@@ -2,7 +2,7 @@ package by.jonline.grow.basicsofoop.exercise3;
 
 public class View {
 
-    public void Out(Calendar calendar) {
+    public void out(Calendar calendar) {
         Calendar.Date[] days = calendar.getDates();
 
         for (int i = 0; i < days.length; i++) {

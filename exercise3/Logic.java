@@ -22,7 +22,7 @@ public class Logic {
         } else {
             days = new Calendar.Date[365];
         }
-
+        //январь - июль
         for (int i = 1; i <= 7; i++) {
 
             if (i == 2) {
@@ -99,6 +99,7 @@ public class Logic {
 
         }
 
+        //август - декабрь
         for (int i = 8; i <= 12; i++) {
 
             if (i % 2 == 0) {

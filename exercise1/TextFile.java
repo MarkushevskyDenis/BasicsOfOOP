@@ -13,12 +13,12 @@ public class TextFile extends File {
         text = "";
     }
 
-    private TextFile(String fileName, String extension, Directory directory) {
-        super(fileName, extension, directory);
+    public TextFile(){
+
     }
 
-    public static TextFile create(String fileName, Directory directory) {
-        return new TextFile(fileName, ".txt", directory);
+    public TextFile(String fileName,Directory directory) {
+        super(fileName, ".txt", directory);
     }
 
     public void rename(String newFileName) {

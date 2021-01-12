@@ -5,7 +5,7 @@ import java.util.Objects;
 
 public class Calendar {
 
-    Date[] dates;
+    private Date[] dates;
 
     public Calendar() {
 
@@ -38,7 +38,7 @@ public class Calendar {
 
     @Override
     public String toString() {
-        return "Calendar{" +
+        return getClass().getSimpleName() + "{" +
                 "dates=" + Arrays.toString(dates) +
                 '}';
     }
